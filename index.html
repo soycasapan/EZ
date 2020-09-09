@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>EZ</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body {
+        font-family: "Lato", sans-serif
+    }
+    
+    .mySlides {
+        display: none
+    }
+</style>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-black w3-card">
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">EZ</a>
+            <a href="#estudio" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ESTUDIO</a>
+            <a href="#proyectos" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROYECTOS</a>
+            <a href="#contacto" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACTO</a>
+        </div>
+    </div>
+
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+        <a href="#estudio" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ESTUDIO</a>
+        <a href="#proyectos" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PROYECTOS</a>
+        <a href="#contacto" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACTO</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+        <!-- IMAGE -->
+        <img src="IMG/daniel-mccullough--FPFq_trr2Y-unsplashBYN.jpg" style="width:100%">
+
+        <!-- ESTUDIO -->
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="estudio">
+            <h2 class="w3-wide">ESTUDIO</h2>
+            <p class="w3-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="w3-row w3-padding-32">
+                <div class="w3-third">
+                    <p>Maite Dominguez</p>
+                    <img src="img/MAITE.jpg" alt="Random Name" style="width:60%">
+                </div>
+                <div class="w3-third">
+                    <p>Carolina Sánchez</p>
+                    <img src="img/CAROLINA.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+                </div>
+            </div>
+        </div>
+
+        <!-- PROYECTOS -->
+        <div class="w3-black" id="proyectos">
+            <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+                <h2 class="w3-wide w3-center">PROYECTOS</h2>
+
+                <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="IMG/P.QUIJOTEBYN.jpg" alt="QUIJOTE" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>EL QUIJOTE</b></p>
+                            <p class="w3-opacity">2018</p>
+                            <p>Anteproyecto de vivienda.</p>
+                        </div>
+                    </div>
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="IMG/P.CLEMENTEBYN.jpg" alt="CLEMENTE" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>PROYECTO CLEMENTE</b></p>
+                            <p class="w3-opacity">2018</p>
+                            <p>Reforma integral de bano.</p>
+                        </div>
+                    </div>
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="IMG/P.BELGRANOBYN.jpg" alt="BELGRANO" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>PROYECTO BELGRANO</b></p>
+                            <p class="w3-opacity">2019</p>
+                            <p>Ampliacion de vivienda.</p>
+                        </div>
+                    </div>
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="IMG/P.IBIRAYBYN.jpg" alt="IBIRAY" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>PROYECTO IBIRAY</b></p>
+                            <p class="w3-opacity">2019</p>
+                            <p>Reforma de cocina y bano.</p>
+                        </div>
+                    </div>
+                    <div class="w3-third w3-margin-bottom">
+                        <img src="IMG/P.CIGANDABYN.jpg" alt="CIGANDA" style="width:100%" class="w3-hover-opacity">
+                        <div class="w3-container w3-white">
+                            <p><b>PROYECTO CIGANDA</b></p>
+                            <p class="w3-opacity">2019</p>
+                            <p>Reforma de patio y parrillero.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACTO -->
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contacto">
+            <h2 class="w3-wide w3-center">CONTACTO</h2>
+            <p class="w3-opacity w3-center"><i>Dejanos tu mensaje</i></p>
+            <div class="w3-row w3-padding-32">
+                <div class="w3-col m6 w3-large w3-margin-bottom">
+                    <i class="fa fa-map-marker" style="width:30px"></i> Mvd, UY<br>
+                    <i class="fa fa-phone" style="width:30px"></i> Phone: +00598 151515<br>
+                    <i class="fa fa-envelope" style="width:30px"> </i> Email: ez.arquitectura@mail.com<br>
+                </div>
+                <div class="w3-col m6">
+                    <form action="/action_page.php" target="_blank">
+                        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                            <div class="w3-half">
+                                <input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Name">
+                            </div>
+                            <div class="w3-half">
+                                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                            </div>
+                        </div>
+                        <input class="w3-input w3-border" type="text" placeholder="Mensaje" required name="Message">
+                        <button class="w3-button w3-black w3-section w3-right" type="submit">ENVIAR</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Page Content -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+    </footer>
+
+    <script>
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function myFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
